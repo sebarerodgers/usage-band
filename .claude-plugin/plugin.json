@@ -1,0 +1,23 @@
+{
+  "name": "usage-band",
+  "version": "0.1.0",
+  "description": "Banda sobre el cuadro de texto con anillos de context, 5h y 7d, y un botón Compact.",
+  "userConfig": {
+    "warnAt": {
+      "type": "number",
+      "title": "Umbral ámbar (%)",
+      "description": "A partir de este porcentaje el anillo llega a ámbar.",
+      "default": 70,
+      "min": 1,
+      "max": 99
+    },
+    "criticalAt": {
+      "type": "number",
+      "title": "Umbral rojo (%)",
+      "description": "A partir de este porcentaje el anillo es rojo.",
+      "default": 90,
+      "min": 2,
+      "max": 100
+    }
+  }
+}
